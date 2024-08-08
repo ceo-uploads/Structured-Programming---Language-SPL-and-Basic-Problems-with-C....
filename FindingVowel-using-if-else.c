@@ -4,7 +4,7 @@ int main() {
 
   //taking input..
   printf("Enter an Alphabet: ");
-  scanf("%d",&word);
+  scanf("%c",&word); // it will take a single word only.
 
   // matching the word...
   if (word == a|| word == e|| word == i|| word == o|| word == u|| word == A|| word == E|| word == I|| word == O|| word == U) {
